@@ -1,0 +1,37 @@
+.draggeble_ele {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 0.8rem;
+}
+
+.draggeble_ele p:nth-child(1) {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.draggeble_ele p:nth-child(3) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.draggeble_ele img {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.draggeble_ele p {
+  font-size: 0.65rem;
+  font-weight: 700;
+  border: 1.75px solid #82b1ff;
+  padding: 0.5rem;
+  cursor: grab;
+}
+.draggeble_ele p:nth-child(even) {
+  opacity: 0.8;
+  font-weight: 500;
+  border-left: none;
+  border-right: none;
+  width: 170px;
+  text-align: center;
+}

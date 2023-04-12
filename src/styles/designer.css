@@ -1,0 +1,40 @@
+.designer {
+  border: 1.75px solid #82b1ff;
+}
+
+.designer_canva {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.designer_canve-sidebar aside {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.designer_canve-sidebar {
+  width: 300px;
+  border-right: 1.75px solid #82b1ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.designer_canve-sidebar_title {
+  padding: 0.5rem 0;
+  width: 100%;
+  border-bottom: 1.75px solid #82b1ff;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 500px;
+}
